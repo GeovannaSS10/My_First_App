@@ -27,7 +27,7 @@ export default function Form()
             return
         }
 
-        setImc(null)
+        setImc()
         setTextButton("Calcular")
         setMessageImc("preencha o peso e a altura")
     }
